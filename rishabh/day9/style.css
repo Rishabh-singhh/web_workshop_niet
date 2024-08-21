@@ -1,0 +1,31 @@
+body{
+    background: #ddd;
+    padding: 0px;
+    margin: 0px;
+}
+
+.page ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.page{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 60px;
+    background-color: rgb(221, 188, 149);
+    box-shadow: 0 16px 8px 0;
+}
+.page ul li a{
+    text-decoration: none;
+    color: black;
+}
+.q{
+    width: 80%;
+    height: 600px;
+}

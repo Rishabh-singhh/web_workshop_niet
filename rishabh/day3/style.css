@@ -1,0 +1,22 @@
+.A{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(162, 214, 20);
+}
+.B{
+    height: 20%;
+    width: 100%;
+    border: 1px solid black;
+}
+.c{
+    height: 100%;
+    width: 20%;
+    border: 1px solid greenyellow;
+    float: left;
+}
+.d{
+    height: 100%;
+    width: 79.65%;
+    border: 1px solid;
+    float: right;
+}

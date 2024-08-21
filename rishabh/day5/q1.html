@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+        </div>
+        <div>
+            <label for="course">B.Tech Course:</label>
+            <select id="course" name="course" required>
+                <option value="" disabled selected>Select your course</option>
+                <option value="cs">Computer Science</option>
+                <option value="aiml">AI & ML</option>
+            </select>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="pass" required>
+        </div>
+        <div>
+            <button type="button" onclick="alert('Hello')">Click Me</button>
+        </div>
+    </form>
+    <div>
+        <h2>Sample Video</h2>
+        <video width="600" controls>
+            <source src="<iframe width="1280" height="720" src="https://www.youtube.com/embed/oFnIe-RpkE4" title="Personal Portfolio website using HTML, CSS and JavaScript (from scratch) 🔥" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> >
+            Your browser does not support the video tag.
+        </video>
+        <div>
+            <h2>Sample YouTube Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>

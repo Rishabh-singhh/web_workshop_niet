@@ -1,0 +1,94 @@
+/* Base styles for the school */
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #4d4b4b;
+    color: white;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1em;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+table th, table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #000000;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Styles for the English department */
+body.english {
+    background-color: #131212;
+    color: #ffffff;
+}
+
+/* Styles for the Mathematics department */
+body.maths {
+    background-color: #fff3e0;
+    color: #ff5722;
+}

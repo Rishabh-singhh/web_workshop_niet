@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+    <script>
+        function valid() {
+            var email = document.my.email.value;
+            var atposition = email.indexOf('@');
+            var dotposition = email.lastIndexOf('.');
+            
+            // Basic email validation check
+            if (atposition < 1 || dotposition <= atposition + 1 || dotposition >= email.length - 1) {
+                alert("Please enter a valid e-mail address\n atposition: " + atposition + "\n dotposition: " + dotposition);
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form name="my" method="post" onsubmit="return valid();">
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Java Program</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function Arr()
+            {
+                var name=document.my.fname.value;
+                var pass=document.my.pass.value;
+                var rp=document.my.retype.value;
+                if (name==null || name ==" ")
+                {
+                alert("name cant be blank");
+                return false;
+                }
+                else if(pass.length<8){
+                    alert("password must be 8 characters");
+                    return false;
+                }
+                else if (rp!==pass)
+                {
+                    alert("password should match");
+                    return false;
+                }
+            }
+    </script>
+</head>
+<body>
+    <form action="" name="my" method="post" onsubmit="return Arr()">
+        name: <input type="text" name="fname">
+        password: <input type="password" name="pass">
+        Retype Password: <input type="password" name="retype">
+        <input type="submit">
+    </form>
+</body>
+</html>
